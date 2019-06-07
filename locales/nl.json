@@ -1,0 +1,21 @@
+{
+    "general": {
+        "nde": "Netwerk Digitaal Erfgoed",
+        "messageFooter": "Een initiatief van het <a href=\"https://www.netwerkdigitaalerfgoed.nl/\">Netwerk Digitaal Erfgoed</a>"
+    },
+    "index": {
+        "title": "Demo's",
+        "subtitle": "Hier vind je applicaties van het Netwerk Digitaal Erfgoed: kleinschalige, experimentele toepassingen.",
+        "goToApp": "Ga naar applicatie",
+        "apps": {
+            "dataStories": {
+                "title": "Data Stories",
+                "description": "Data Stories zijn een manier om met SPARQL te zoeken in Linked Data en de resultaten op een gebruiksvriendelijke wijze te presenteren als lijsten, afbeeldingen of kaarten."
+            },
+            "networkOfTerms": {
+                "title": "Termennetwerk",
+                "description": "Het Termennetwerk is een nieuwe dienst van het Netwerk Digitaal Erfgoed voor het vinden van termen in terminologiebronnen, zoals thesauri, classificatiesystemen en referentielijsten. Het Termennetwerk zoekt in alle terminologiebronnen die in het erfgoednetwerk beschikbaar zijn. We werken nog aan het eindproduct, maar deze applicatie geeft alvast een voorproefje."
+            }
+        }
+    }
+}

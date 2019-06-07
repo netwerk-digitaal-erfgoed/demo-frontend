@@ -1,0 +1,46 @@
+
+html {
+    font-size: 14px;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a, a:hover {
+    color: #0a3dfa;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card:hover {
+    background-color:#f8f9fa;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #fbfbfb;
+    box-shadow: 0 50vh 0 50vh #fbfbfb;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}

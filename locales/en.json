@@ -1,0 +1,21 @@
+{
+    "general": {
+        "nde": "Dutch Digital Heritage Network",
+        "messageFooter": "Initiated by the <a href=\"https://www.netwerkdigitaalerfgoed.nl/en\">Dutch Digital Heritage Network</a>"
+    },
+    "index": {
+        "title": "Demos",
+        "subtitle": "Here you will find small-scale, experimental applications from the Dutch Digital Heritage Network.",
+        "goToApp": "Go to application",
+        "apps": {
+            "dataStories": {
+                "title": "Data Stories",
+                "description": "Data Stories are a way to search Linked Data with SPARQL and present the results in a user-friendly manner as lists, images or maps."
+            },
+            "networkOfTerms": {
+                "title": "Network of Terms",
+                "description": "The Network of Terms is a new service being developed by the Dutch Digital Heritage Network for finding terms in terminology sources such as thesauri, classification systems, and reference lists. The Network of Terms searches all of the terminology sources available in the Heritage Network. We are still working on the final product, but this demo application will give you a taste of what's in store for you."
+            }
+        }
+    }
+}

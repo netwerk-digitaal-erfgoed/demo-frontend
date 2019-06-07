@@ -1,0 +1,5 @@
+version: "3"
+services:
+  server:
+    ports:
+      - "5501:5501"

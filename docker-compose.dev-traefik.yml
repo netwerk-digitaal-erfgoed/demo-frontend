@@ -1,0 +1,13 @@
+version: "3"
+services:
+  server:
+    labels:
+      - "traefik.docker.network=traefik"
+      - "traefik.frontend.rule=Host:nde-demo.localhost;PathPrefix:/"
+      - "traefik.port=5501"
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true

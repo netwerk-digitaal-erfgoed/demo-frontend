@@ -1,0 +1,41 @@
+{
+    "server": {
+        "port": 5501
+    },
+    "register": {
+        "plugins": [
+            {
+                "plugin": "hapi-pino",
+                "options": {
+                    "messageKey": "message",
+                    "useLevelLabels": true,
+                    "name": "server",
+                    "logPayload": true,
+                    "ignorePaths": ["/favicon.ico"]
+                }
+            },
+            {
+                "plugin": "@hapi/inert"
+            },
+            {
+                "plugin": "@hapi/vision"
+            },
+            {
+                "plugin": "hapi-i18n",
+                "options": {
+                    "locales": ["nl", "en"],
+                    "defaultLocale": "nl",
+                    "directory": "/usr/src/app/locales",
+                    "updateFiles": false,
+                    "objectNotation": true
+                }
+            },
+            {
+                "plugin": "./content.js"
+            },
+            {
+                "plugin": "./files.js"
+            }
+        ]
+    }
+}
