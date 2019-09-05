@@ -11,17 +11,19 @@ Paste the contents underneath:
 
     NODE_ENV=development
 
-### Build and start without Traefik
+### Build, start and stop without Traefik
 
     docker-compose -f docker-compose.common.yml -f docker-compose.dev.yml build --no-cache
     docker-compose -f docker-compose.common.yml -f docker-compose.dev.yml up
     http://localhost:5501/
+    docker-compose -f docker-compose.common.yml stop
 
-### Or build and start with Traefik
+### Or build, start and stop with Traefik
 
     docker-compose -f docker-compose.common.yml -f docker-compose.dev-traefik.yml build --no-cache
     docker-compose -f docker-compose.common.yml -f docker-compose.dev-traefik.yml up
     http://nde-demo.localhost/
+    docker-compose -f docker-compose.common.yml -f docker-compose.dev-traefik.yml stop
 
 ### Logon to container
 
