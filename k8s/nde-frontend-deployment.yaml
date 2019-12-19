@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nde-frontend-deployment
+  labels:
+    app: nde-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nde-frontend
+  template:
+    metadata:
+      labels:
+        app: nde-frontend
+    spec:
+      containers:
+        - name: nde-frontend
+          image: harbor.51-105-200-91.nip.io/nde/demo-frontend:latest
+          imagePullPolicy: Always
+          env:
+            - name: NODE_ENV
+              value: production
+          ports:
+            - containerPort: 5501
+      imagePullSecrets:
+        - name: harbor-cred
