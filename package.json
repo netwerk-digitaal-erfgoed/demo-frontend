@@ -9,7 +9,7 @@
   "dependencies": {
     "confidence": "4.0.1",
     "fs-extra": "7.0.1",
-    "handlebars": "4.1.2",
+    "handlebars": "4.5.3",
     "@hapi/boom": "7.4.2",
     "@hapi/glue": "6.1.0",
     "@hapi/hapi": "18.3.1",
