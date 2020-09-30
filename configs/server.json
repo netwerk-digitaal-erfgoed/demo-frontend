@@ -25,7 +25,7 @@
                 "options": {
                     "locales": ["nl", "en"],
                     "defaultLocale": "nl",
-                    "directory": "/usr/src/app/locales",
+                    "directory": "./locales",
                     "updateFiles": false,
                     "objectNotation": true
                 }
