@@ -1,4 +1,4 @@
-Front end application for NDE's demo environment
+Front end application for NDE’s demo environment
 ==============================
 
 ## Development
