@@ -15,10 +15,6 @@
             "register": {
                 "title": "Registry",
                 "description": "Dataset descriptions published by heritage institutions are collected after registration with the aim of gaining a better understanding of heritage datasets."
-            },
-            "networkOfTerms": {
-                "title": "Network of Terms",
-                "description": "The Network of Terms is a new service being developed by the Dutch Digital Heritage Network for finding terms in terminology sources such as thesauri, classification systems, and reference lists. The Network of Terms searches all of the terminology sources available in the Heritage Network. We are still working on the final product, but this demo application will give you a taste of what’s in store for you."
             }
         }
     }

@@ -15,10 +15,6 @@
             "register": {
                 "title": "Register",
                 "description": "Door erfgoedinstellingen gepubliceerde datasetbeschrijvingen worden na aanmelding verzameld met als doel een beter inzicht te krijgen in erfgoeddatasets."
-            },
-            "networkOfTerms": {
-                "title": "Termennetwerk",
-                "description": "Het Termennetwerk is een nieuwe dienst van het Netwerk Digitaal Erfgoed voor het vinden van termen in terminologiebronnen, zoals thesauri, classificatiesystemen en referentielijsten. Het Termennetwerk zoekt in alle terminologiebronnen die in het erfgoednetwerk beschikbaar zijn. We werken nog aan het eindproduct, maar deze applicatie geeft alvast een voorproefje."
             }
         }
     }
