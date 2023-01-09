@@ -12,9 +12,21 @@
                 "title": "Data Stories",
                 "description": "Data Stories are a way to search Linked Data with SPARQL and present the results in a user-friendly manner as lists, images or maps."
             },
-            "register": {
-                "title": "Registry",
-                "description": "Dataset descriptions published by heritage institutions are collected after registration with the aim of gaining a better understanding of heritage datasets."
+            "churchFlix": {
+                "title": "HeritageFlix browser - churches",
+                "description": "Browsing through cultural heritage collections - theme churches."
+            },
+            "paintingFlix": {
+                "title": "HeritageFlix browser - paintings",
+                "description": "Browsing through cultural heritage collections - theme paintings."
+            },
+            "gvnBrowser": {
+                "title": "Geheugen van Nederland - data browser",
+                "description": "Experimental data source browser as supporting tool for the GvN content editors."
+            },
+            "DS-NA-Theater": {
+                "title": "Nationaal Archief - datastory Theaterencyclopedie",
+                "description": "Datastory created by Nationaal Archief based on their theater image collection and data from the Theaterencyclopedie."
             }
         }
     }
