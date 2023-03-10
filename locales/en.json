@@ -22,11 +22,15 @@
             },
             "gvnBrowser": {
                 "title": "Geheugen van Nederland - data browser",
-                "description": "Experimental data source browser as supporting tool for the GvN content editors."
+                "description": "Data source browser supporting tool for the GvN content editors."
+            },
+            "modemuzeKg": {
+                "title": "Modemuze - Knowledge Graph",
+                "description": "Knowledge Graph for discovering patterns in heritage information about fashion and costumes."
             },
             "DS-NA-Theater": {
-                "title": "Nationaal Archief - datastory Theaterencyclopedie",
-                "description": "Datastory created by Nationaal Archief based on their theater image collection and data from the Theaterencyclopedie."
+                "title": "Nationaal Archief - data story Theaterencyclopedie",
+                "description": "Data story created by Nationaal Archief based on their theater image collection and data from the Theaterencyclopedie."
             }
         }
     }

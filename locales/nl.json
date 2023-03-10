@@ -14,15 +14,19 @@
             },
             "paintingFlix": {
                 "title": "HeritageFlix browser - schilderijen",
-                "description": "Browsen door erfgoedcollecties - thema schilderijen"
+                "description": "Browsen door erfgoedcollecties - thema schilderijen."
             },
             "churchFlix": {
                 "title": "HeritageFlix browser - kerken",
-                "description": "Browsen door erfgoedcollecties - thema kerken"
+                "description": "Browsen door erfgoedcollecties - thema kerken."
             },
             "gvnBrowser": {
                 "title": "Geheugen van Nederland - databrowser",
-                "description": "Browser over databronnen als hulpmiddel voor de redactie van Geheugen van Nederland. Dit is een experimentele versie die niet bedoeld is voor productie doeleneinden."
+                "description": "Browser over databronnen als hulpmiddel voor de redactie van Geheugen van Nederland."
+            },
+            "modemuzeKg": {
+                "title": "Modemuze - Knowledge Graph",
+                "description": "Knowledge Graph voor het ontdekken van patronen in erfgoedinformatie over mode en kostuums."
             },
             "DS-NA-Theater": {
                 "title": "Nationaal Archief - datastory Theaterencyclopedie",
